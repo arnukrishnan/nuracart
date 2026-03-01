@@ -3,7 +3,7 @@ import { Search, Heart, User, ShoppingCart } from 'lucide-react';
 
 const Navigation = () => {
     return (
-        <nav className=' flex bg-green justify-between items-center  md:px-18 md:py-4'>
+        <nav className=' flex bg-green-600 justify-between items-center  md:px-18 md:py-4'>
             <div>
                 <a href="/" className='text-3xl font-semibold tracking-wider'>nuracart</a>
             </div>
