@@ -7,9 +7,9 @@ const Navigation = () => {
             <div>
                 <a href="/" className='text-3xl font-semibold tracking-wider'>nuracart</a>
             </div>
-            <div >
+            <div  >
                 {/* Menu */}
-                <ul className='hidden md:gap-16 md:text-lg '>
+                <ul className='hidden md:flex  md:gap-16 md:text-lg '>
                     <li className=' text-gray-600  hover:text-black' >Shop</li>
                     <li className=' text-gray-600  hover:text-black'>Men</li>
                     <li className=' text-gray-600  hover:text-black'>Women</li>
