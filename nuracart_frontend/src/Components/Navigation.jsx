@@ -25,9 +25,9 @@ const Navigation = () => {
             </div>
             {/* Desktop Icons */}
             <div>
-                <ul className=' flex items-center flex-wrap md:gap-10 gap-5 '>
+                <ul className=' flex items-center flex-wrap md:gap-10 gap-5 space-x-5 md:space-x-0    '>
                     <li><Heart className=' text-gray-600 hover:fill-black size-5' /></li>
-                    <li><User className=' text-gray-600 hidden md:block hover:fill-black size-5' /></li>
+                    <li className='hidden md:block'><User className=' text-gray-600  hover:fill-black size-5' /></li>
                     <li><ShoppingCart className=' text-gray-600 hover:fill-black size-5' /></li>
                     <li className='md:hidden flex '><button onClick={() => { setMenuOpen(!menuOpen) }}>{menuOpen ? <X className='size-5 text-gray-600 ' /> : <Menu className='size-5 text-gray-600 ' />}
                     </button></li>
