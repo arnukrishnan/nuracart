@@ -5,7 +5,7 @@ const Navigation = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className='flex px-4 py-4   justify-between items-center  md:px-18 md:py-4'>
+        <nav className='flex px-4 py-4 flex-wrap  justify-between items-center  md:px-18 md:py-4'>
             <div>
                 <a href="/" className='text-3xl font-semibold tracking-wider'>nuracart</a>
             </div>
@@ -25,7 +25,7 @@ const Navigation = () => {
             </div>
             {/* Desktop Icons */}
             <div>
-                <ul className=' flex items-center flex-wrap md:gap-10 gap-5 space-x-5 md:space-x-0    '>
+                <ul className=' flex items-center flex-wrap md:gap-10 gap-5 space-x-3 md:space-x-0    '>
                     <li><Heart className=' text-gray-600 hover:fill-black size-5' /></li>
                     <li className='hidden md:block'><User className=' text-gray-600  hover:fill-black size-5' /></li>
                     <li><ShoppingCart className=' text-gray-600 hover:fill-black size-5' /></li>
