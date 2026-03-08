@@ -1,4 +1,4 @@
-# Nuracart – E-commerce Website
+# nuracart – E-commerce Website
 
 🚧 **Status:** In Progress
 
