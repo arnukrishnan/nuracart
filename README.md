@@ -1,6 +1,6 @@
-nuracart – E-commerce Website
+# Nuracart – E-commerce Website
 
-Status: In Progress
+🚧 **Status:** In Progress
 
 Nuracart is an e-commerce web application that is currently under development.
 The goal of this project is to build a full-stack online shopping platform with modern technologies.
